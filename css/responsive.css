@@ -1,0 +1,84 @@
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .form-about h1 {
+        font-family: 'Italianno', cursive;
+        font-family: 'Allura', cursive;
+        font-weight: bold;
+        font-size: 43px;
+    }
+    .form-about h3 {
+        color: white;
+        background-color: #00af50;
+        padding: 2px 0;
+        font-weight: 400;
+        word-spacing: 2px;
+        font-size: 23px;
+    }
+    .form-style {
+        color: white;
+        background-color: #00af50;
+        padding: 3px 15px;
+        /* padding: 0!important; */
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        margin-bottom: 45px;
+        height: 40px;
+        text-align: center;
+    }
+    .form-control {
+        margin-bottom: 10px;
+    }
+    .form-check-label {
+        margin-bottom: 11px;
+        margin-left: 1.9rem;
+        color: white;
+        background-color: #00af50;
+        padding: 3px 245px;
+        /* text-align: center; */
+        width: 0;
+        /* margin: 0 auto; */
+        border-radius: 5px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .form-about h1 {
+        /* font-family: 'Italianno', cursive; */
+        font-family: 'Allura', cursive;
+        font-weight: bold;
+        font-size: 50px;
+        }
+        .form-about h3 {
+            color: white;
+            background-color: #00af50;
+            padding: 3px 0;
+            font-weight: 400;
+            word-spacing: 2px;
+            font-size: 25px;
+        }
+        .form-style {
+            padding: 9px 15px;
+            /* padding: 0!important; */
+            font-family: 'lato', sans-serif;
+            font-size: 15px;
+            height: 40px;
+            text-align: center;
+        }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
